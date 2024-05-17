@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--==================== WEBSITE DESCRIPTION ===================== -->
+  <meta name="description" content="Portfolio website of Sumit Das. A summary of professional experience, 
+      skills, projects details and contact information." />
+
+  <!--==================== WEBSITE TITLE ===================== -->
+  <title>Sumit Das - Portfolio</title>
+
+  <!--==================== OPEN GRAPH META TAGS ===================== -->
+  <meta property="og:title" content="Sumit Das - Portfolio" />
+  <meta property="og:image" content="/assets/img/AppImages/ios/512.png" />
+  <meta property="og:description" content="Portfolio website of Sumit Das. A summary of professional experience, 
+      skills, projects details and contact information." />
+
+  <!--==================== TWITTER META TAGS ===================== -->
+  <meta name="twitter:title" content="Sumit Das - Portfolio" />
+  <meta name="twitter:description" content="Portfolio website of Sumit Das. A summary of professional experience, 
+      skills, projects details and contact information." />
+  <meta name="twitter:image" content="/assets/img/AppImages/ios/512.png" />
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <!-- <link rel="stylesheet" href="/src/unicons/v4.0.0/css/line.css" /> -->
+
+  <!-- ====================PWA================== -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/32.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/72.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/100.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/128.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/144.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/152.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/192.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/256.png" />
+  <link rel="apple-touch-icon" href="/assets/img/AppImages/ios/512.png" />
+  <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#6E57E0" />
+
+  <!-- ============FAVICONS============== -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets//img/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png" />
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico" />
+  <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#5B5EA6">
+
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="/src/Swiper/6.7.5/swiper-bundle.min.css"/> -->
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!--==================== Google Tag Manager ====================-->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TRFFKJ6F');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!--==================== Google Tag Manager (noscript) ====================-->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRFFKJ6F"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- ===================== LOADER ==================== -->
+  <div class="loading-container">
+    <div class="greeting-text">Hello</div>
+  </div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo noSelect">Sumit Das</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link noSelect active-link">
+              <i class="uil uil-estate nav__icon"></i> Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link noSelect">
+              <i class="uil uil-user nav__icon"></i> About
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link noSelect">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link noSelect">
+              <i class="uil uil-briefcase-alt nav__icon"></i> Services
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link noSelect">
+              <i class="uil uil-scenery nav__icon"></i> Portfolio
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link noSelect">
+              <i class="uil uil-message nav__icon"></i> Contact Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+        <!-- theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle noSelect" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/codebysumit" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/codebysumit" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a href="https://t.me/codebysumit" target="_blank" class="home__social-icon">
+              <i class="uil uil-telegram-alt"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="5" y="5" xlink:href="assets/img/profile.webp"></image>
+              </g>
+            </svg>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Hi, I am Sumit</h1>
+            <!-- <h3 class="home__subtitle" id="home-subtitle"></h3> -->
+            <h3 class="home__subtitle">
+              <span id="typed-skills-1"></span>
+            </h3>
+            <p class="home__description">
+              I have a passion for building intuitive, user-friendly
+              interfaces that provide an enjoyable and seamless user
+              experience.
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== ABOUT ====================-->
+
+  <section class="about section" id="about">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My Introduction</span>
+
+    <div class="about__container container grid">
+      <img src="assets/img/profile-pic.webp" alt="" class="about__img" />
+
+      <div class="about__data">
+        <p class="about__description">
+          Hi there! I'm Sumit Das, a full-stack software developer with a strong foundation in various programming
+          languages and technologies. I wear many hats in the development world, comfortably navigating both front-end
+          and back-end aspects. From designing user-friendly interfaces to building robust back-end systems, I leverage
+          my knowledge of HTML, CSS, JavaScript, React, Python, Node.js, Express.js, C, C++, MySQL, and MongoDB to bring
+          projects to life.
+          <br />
+          <br />
+          In my free time, I'm a lifelong learner, constantly pushing the boundaries of my knowledge by exploring new
+          technologies and frameworks within the ever-evolving tech landscape. Whether it's diving into a new coding
+          language or mastering a cutting-edge framework, I thrive on the challenge of expanding my skillset. But
+          technology isn't everything – I also cherish spending quality time with my family.
+          <br />
+        <div class="about__info">
+          <div>
+            <span class="about__info-title">8+</span>
+            <span class="about__info-name">Years <br />
+              experience</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">20+</span>
+            <span class="about__info-name">Projects <br />
+              completed</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">04+</span>
+            <span class="about__info-name">Companies <br />
+              worked</span>
+          </div>
+        </div>
+
+        <div class="about__buttons">
+          <a download="" href="assets/pdf/sumit_resume.pdf" class="button button--flex about_button">
+            Download Resume <i class="uil uil-download-alt button__icon"></i></a>
+
+          <a href="/plugin/pdfjs/4.2.67/web/viewer.html" target="_blank" class="button button--flex about_button">
+            View Resume <i class="uil uil-eye button__icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== SKILLS ====================-->
+
+  <section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My tech stack</span>
+    <div class="skills__container container grid">
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/html.svg" alt="html" />
+        <div class="skills__container-name">HTML</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/css.svg" alt="css" />
+        <div class="skills__container-name">CSS</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/javascript.svg" alt="javascript" />
+        <div class="skills__container-name">JavaScript</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/mongodb.svg" alt="mongodb" />
+        <div class="skills__container-name">MongoDB</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/express.svg" alt="express" />
+        <div class="skills__container-name">Express</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/react.svg" alt="react" />
+        <div class="skills__container-name">React</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/nodejs.svg" alt="nodejs" />
+        <div class="skills__container-name">NodeJS</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/cpp.svg" alt="c/cpp" />
+        <div class="skills__container-name">C/CPP</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/python.svg" alt="python" />
+        <div class="skills__container-name">Python</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/numpy.svg" alt="numpy" />
+        <div class="skills__container-name">Numpy</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/pandas.svg" alt="pandas" />
+        <div class="skills__container-name">Pandas</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/selenium.svg" alt="selenium" />
+        <div class="skills__container-name">Selenium</div>
+      </div>
+
+
+      <!-- <div class="skills__container-box">
+              <img class="skills__container-img" src="/assets/img/skills/figma.svg" alt="figma">
+              <div class="skills__container-name">Figma</div>
+            </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/vue.svg" alt="vue" />
+        <div class="skills__container-name">Vue</div>
+      </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/c.svg" alt="c" />
+        <div class="skills__container-name"></div>
+      </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/sass.svg" alt="sass" />
+        <div class="skills__container-name">SASS</div>
+      </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/firebase.svg" alt="firebase" />
+        <div class="skills__container-name">Firebase</div>
+      </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/typescript.svg" alt="typescript" />
+        <div class="skills__container-name">TypeScript</div>
+      </div> -->
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="/assets/img/skills/angular.svg" alt="angular" />
+        <div class="skills__container-name">Angular</div>
+      </div> -->
+
+
+    </div>
+  </section>
+
+  <!--==================== QUALIFICATOIN ====================-->
+
+  <section class="qualification section">
+    <h2 class="section__title">Qualification</h2>
+    <span class="section__subtitle">My personal journey</span>
+
+    <div class="qualification__container container">
+      <div class="qualification__tabs">
+        <div class="qualification__button button--flex qualification__active" data-target="#work">
+          <i class="uil uil-briefcase-alt qualification__icon"> </i>
+          Education
+        </div>
+
+        <div class="qualification__button button--flex" data-target="#education">
+          <i class="uil uil-graduation-cap qualification__icon"> </i>
+          Work
+        </div>
+      </div>
+
+      <div class="qualification__sections">
+        <!--==================== QUALIFICATOIN CONTENT 1====================-->
+        <div class="qualification__content qualification__active" data-content id="work">
+          <!--==================== QUALIFICATOIN 1====================-->
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">SSC, HSC - Commerce</h3>
+              <span class="qualification__subtitle"> Burul High School </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2015 - 2022
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATOIN 2====================-->
+          <!-- <div class="qualification__data">
+            <div></div>
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+            <div>
+              <h3 class="qualification__title">XYZ University</h3>
+              <span class="qualification__subtitle"> XYZ Skill </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2020-2024
+              </div>
+            </div>
+          </div> -->
+
+          <!--==================== QUALIFICATOIN 3====================-->
+          <!-- <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">XYZ University</h3>
+              <span class="qualification__subtitle"> XYZ Skill </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2020-2024
+              </div>
+            </div>
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div> -->
+
+          <!--==================== QUALIFICATOIN 4====================-->
+          <div class="qualification__data">
+            <div></div>
+            <div>
+              <span class="qualification__rounder"></span>
+              <!-- <span class="qualification__line"></span> -->
+            </div>
+            <div>
+              <h3 class="qualification__title">Diploma in Computer Science and Technology</h3>
+              <span class="qualification__subtitle"> Murarai Goverment Polytechnic </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2023 - Present
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== QUALIFICATOIN CONTENT 2====================-->
+        <div class="qualification__content" data-content id="education">
+          <!--==================== QUALIFICATOIN 1====================-->
+          <!-- <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">SSC, HSC - Commerce</h3>
+              <span class="qualification__subtitle">
+                Burul High School
+              </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2015 - 2022
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div> -->
+
+          <!--==================== QUALIFICATOIN 2====================-->
+          <!-- <div class="qualification__data">
+            <div></div>
+            <div>
+              <span class="qualification__rounder"></span> -->
+
+          <!-- <span class="qualification__line"></span> -->
+
+          <!-- </div>
+            <div>
+              <h3 class="qualification__title">Diploma in Computer Science and Technology</h3>
+              <span class="qualification__subtitle"> Murarai Goverment Polytechnic </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2023 - Present
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== SERVICES ====================-->
+
+  <section class="services section" id="services">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">What I offer</span>
+
+    <div class="services__container container grid">
+      <!--==================== SERVICE 1 ====================-->
+      <div class="services__content">
+        <div>
+          <i class="uil uil-arrow services__icon"></i>
+          <h3 class="services__title">Web<br />Developer</h3>
+        </div>
+
+        <span class="button button--flex button--small button--link services__button">
+          View More
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
+
+        <div class="services__modal">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title">Web<br />Developer</h4>
+            <i class="uil uil-times services__modal-close"></i>
+            <ul class="services__modal-services grid">
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>
+                  I develop web applications with end to end solutions for
+                  frontend and backend
+                </p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I handle website deployment</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I optimize website performance</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I help in webiste SEO optimization</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!--==================== SERVICE 2 ====================-->
+      <div class="services__content">
+        <div>
+          <i class="uil uil-robot services__icon"></i>
+          <h3 class="services__title">Python<br />Developer</h3>
+        </div>
+
+        <span class="button button--flex button--small button--link services__button">
+          View More
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
+
+        <div class="services__modal">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title">Python<br />Developer</h4>
+            <i class="uil uil-times services__modal-close"></i>
+            <ul class="services__modal-services grid">
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I utilize Python for data analysis and manipulation</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I can automate social media websites uning Python</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I can build software to scrape webiste data uning Python</p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>I develop Python GUI application</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== PORTFOLIO ====================-->
+
+  <section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <span class="section__subtitle">Most recent work</span>
+
+    <div class="portfolio__container container swiper-container">
+      <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1====================-->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="/assets/img/portfolio/01-crypto50.jpg" alt="" class="portfolio__img" />
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Crypto50</h3>
+            <p class="portfolio__description">
+              Crypto50 is user-friendly hybrid data encryption softwer build with python.
+            </p>
+            <a href="https://github.com/codebysumit/Crypto50" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              Demo
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!--==================== PORTFOLIO 2====================-->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="/assets/img/portfolio/02-open-web-audio.jpg" alt="" class="portfolio__img" />
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Open Web Audio</h3>
+            <p class="portfolio__description">
+              Open Web Audio is open source webiste based audio player build with HTML5, CSS and JavaScript.
+            </p>
+            <a href="https://github.com/codebysumit/open-web-audio" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              Demo
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!--==================== PORTFOLIO 3====================-->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="/assets/img/portfolio/03-gpx-to-csv-converter.jpg" alt="" class="portfolio__img" />
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">GPX to CSV Converter</h3>
+            <p class="portfolio__description">
+              CLI interface base GPX to CSV file converter application using C++ without external
+              libraries/dependencies.
+            </p>
+            <a href="https://github.com/codebysumit/GPX_TO_CSV_CONVERTER" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              Demo
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!--==================== PORTFOLIO 4====================-->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="/assets/img/portfolio/04-phpmailer.jpg" alt="" class="portfolio__img" />
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">SMTP Email Sender using PHP</h3>
+            <p class="portfolio__description">
+              Light weight Gmail SMTP email sender using PHPMailer.
+            </p>
+            <a href="https://github.com/codebysumit/php-gmail-sender-using-smtp" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              Demo
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add arrows -->
+      <div class="swiper-button-next">
+        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!--==================== PROJECT IN MIND ====================-->
+
+  <section class="project section">
+    <div class="project__bg">
+      <div class="project__container container grid">
+        <div class="project__data">
+          <h2 class="project__title">You have a new project ?</h2>
+          <p class="project__description">
+            I would love to chat with you about your project and see how we
+            can work together to create something truly amazing. Let's
+            connect.
+          </p>
+          <a href="#contact" class="button button--flex button--white">
+            Contact Me
+            <i class="uil uil-message project__icon button__icon"></i>
+          </a>
+        </div>
+
+        <img src="/assets/img/drawing.svg" alt="" class="project__img" />
+      </div>
+    </div>
+  </section>
+
+  <!--==================== CONTACT ME ====================-->
+
+  <section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+
+    <div class="contact__container container grid">
+      <div>
+        <div class="contact__information">
+          <i class="uil uil-phone contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Call Me</h3>
+            <span class="contact__subtitle">+91 XXXXXXXX52</span>
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-envelope contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Email</h3>
+            <span class="contact__subtitle">sumitdasprivate@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-map-marker contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__subtitle">Kolkata, India</span>
+          </div>
+        </div>
+      </div>
+
+      <form action="?" method="POST" class="contact__form grid">
+        <div class="contact__inputs grid">
+          <div class="contact__content">
+            <label for="name" class="contact__label">Name</label>
+            <input type="text" type="text" class="contact__input" id="name" autocomplete="name" required />
+            <p class="contuact_error_message" id="name-error-message" hidden></p>
+          </div>
+
+          <div class="contact__content">
+            <label for="email" class="contact__label">Email</label>
+            <input type="email" type="email" class="contact__input" id="email" autocomplete="email" required />
+            <p class="contuact_error_message" id="email-error-message" hidden></p>
+          </div>
+        </div>
+        <div class="contact__content">
+          <label for="project" class="contact__label">Project</label>
+          <input type="text" class="contact__input" id="project" />
+          <p class="contuact_error_message" id="project-error-message" hidden></p>
+        </div>
+        <div class="contact__content">
+          <label for="message" class="contact__label">Message</label>
+          <textarea name="message" cols="0" rows="7" class="contact__input" id="message"></textarea>
+          <p class="contuact_error_message" id="message-error-message" hidden></p>
+        </div>
+        <!-- reCAPTCHA WIDGET -->
+        <div id="g-recaptcha-light" class="g-recaptcha"></div>
+        <div id="g-recaptcha-dark" class="g-recaptcha" hidden></div>
+        <p class="contuact_error_message" id="recaptcha-error-message" hidden></p>
+
+        <div>
+          <!-- <button style="border: 0;" type="submit" class="button button--flex"> -->
+          <button style="border: 0;" type="button" class="button button--flex" onclick="sendEmail()">
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--==================== FOOTER ====================-->
+
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Sumit</h1>
+          <span class="footer__subtitle">
+            <span id="typed-skills-2"></span>
+          </span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact Me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/codebysumit" target="_blank" class="footer__social">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://www.instagram.com/codebysumitdas" target="_blank" class="footer__social">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://www.threads.net/@codebysumitdas" target="_blank" class="footer__social">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" viewBox="0 0 17 17">
+              <path
+                d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
+            </svg>
+          </a>
+
+          <a href="https://twitter.com/codebysumitdas" target="_blank" class="footer__social">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" viewBox="0 0 17 17">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Sumit Das. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+
+  <!-- ===================== All JAVASCRIPTS CONTENTS ==================== -->
+
+  <!--==================== reCAPTCHA ====================-->
+  <script>
+    // Set reCaptcha theme
+    function setReCaptchaTheme(theme) {
+      // reCaptcha theme change
+      if (theme === "light") {
+        // light theme
+        document.getElementById('g-recaptcha-dark').hidden = true
+        document.getElementById('g-recaptcha-light').hidden = false
+      }
+      else if (theme === "dark") {
+        // Dark theme
+        document.getElementById('g-recaptcha-light').hidden = true
+        document.getElementById('g-recaptcha-dark').hidden = false
+      }
+    };
+
+    var recaptchaWidgetDark, recaptchaWidgetLight;
+
+    var onloadCallback = function () {
+      recaptchaWidgetDark = grecaptcha.render(document.getElementById('g-recaptcha-dark'), {
+        'sitekey': '6Lc0TOApAAAAABCpEyWbgEnVpLsXcmnLpZeAK1Fa',
+        'theme': 'dark'
+      })
+
+      recaptchaWidgetLight = grecaptcha.render(document.getElementById('g-recaptcha-light'), {
+        'sitekey': '6Lc0TOApAAAAABCpEyWbgEnVpLsXcmnLpZeAK1Fa',
+        'theme': 'light'
+      })
+    };
+
+    // get g-recaptcha-token
+    function getReCaptchaToken() {
+      let isCurrentTheme = localStorage.getItem("selected-theme")
+      if (isCurrentTheme) {
+        if (isCurrentTheme === 'dark') {
+          return grecaptcha.getResponse(recaptchaWidgetDark)
+        }
+        else {
+          return grecaptcha.getResponse(recaptchaWidgetLight)
+        }
+      }
+      else if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        return grecaptcha.getResponse(recaptchaWidgetDark)
+        // return {'dark': grecaptcha.getResponse(recaptchaWidgetDark)}
+      }
+      return grecaptcha.getResponse(recaptchaWidgetLight)
+      // return {'light': grecaptcha.getResponse(recaptchaWidgetLight)}
+    };
+
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+  <!-- <script src="/src/Swiper/6.7.5/swiper-bundle.min.js"></script> -->
+
+  <!-- ===================== SHOW/HIDE AND SHOW GEETING LOADER ==================== -->
+  <script>
+    const greetings = [
+      "Hello", // English
+      "你好", // Chinese (Mandarin)
+      "নমস্কার", // Bengali
+      "こんにちは", // Japanese
+      "नमस्कार", // Hindi
+      "привет", // Russian
+      "مرحبا", // Arabic
+      "Hola", // Spanish
+    ];
+
+    const greetingText = document.querySelector('.greeting-text');
+    let currentGreetingIndex = 0;
+
+    function showGreeting() {
+      greetingText.textContent = greetings[currentGreetingIndex];
+      greetingText.classList.remove('hidden'); // Remove hidden class if added
+
+      setTimeout(() => {
+        greetingText.classList.add('hidden'); // Add hidden class for fade-out effect
+        currentGreetingIndex = (currentGreetingIndex + 1) % greetings.length;
+
+        if (currentGreetingIndex === 0) {
+          // All greetings shown, check if page is loaded
+          if (document.readyState === 'complete') {
+            // greetingText.classList.remove('hidden');
+            // greetingText.textContent = greetings[currentGreetingIndex];
+            hideLoadingContainer();
+          } else {
+            // Page not loaded, restart loop
+            showGreeting();
+          }
+        } else {
+          showGreeting();
+        }
+      }, 200); // Change delay as needed (time in milliseconds)
+    }
+
+    function hideLoadingContainer() {
+      const loadingContainer = document.querySelector('.loading-container');
+      loadingContainer.style.opacity = 0;
+      loadingContainer.style.transition = 'opacity 0.5s ease-in-out';
+
+      setTimeout(() => {
+        loadingContainer.style.display = 'none';
+      }, 500); // Adjust delay for smoother transition (time in milliseconds)
+    }
+
+    // greetingText.textContent = greetings[currentGreetingIndex];
+    // greetingText.classList.remove('hidden');
+    setTimeout(showGreeting, 1000)
+
+    // window.addEventListener('load', hideLoadingContainer);
+  </script>
+
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js"></script>
+
+  <!--==================== TYPED JS ====================-->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- <script src="/src/typed.js/2.1.0/typed.umd.js"></script> -->
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typedSkillOption = {
+      // strings: ['Web Developer', 'Python Developer', 'Machine learning Engineer', 'Data Scientist'],
+      strings: ['Web Developer', 'Python Developer'],
+      typeSpeed: 60,
+      loop: true
+    }
+
+    var typed1 = new Typed('#typed-skills-1', typedSkillOption);
+    var typed2 = new Typed('#typed-skills-2', typedSkillOption);
+  </script>
+
+  <!--==================== SWEETALERT2 JS ====================-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- <script type="text/javascript" src="/src/sweetalert2/11.10.8/sweetalert2%4011.js"></script> -->
+
+  <!--==================== EMAIL JS ====================-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript" src="assets/js/emailjs.js"></script>
+
+  <!-- =====================REGISTER SERVICE WORKER================ -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker
+          .register("/serviceWorker.js")
+          .then((res) => console.log("service worker registered"))
+          .catch((err) => console.log("service worker not registered", err));
+      });
+    }
+  </script>
+</body>
+
+</html>
