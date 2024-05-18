@@ -902,6 +902,7 @@
     let currentGreetingIndex = 0;
 
     function showGreeting() {
+      document.body.style.cursor = "wait";
       greetingText.textContent = greetings[currentGreetingIndex];
       greetingText.classList.remove('hidden'); // Remove hidden class if added
 
@@ -927,6 +928,7 @@
 
     function hideLoadingContainer() {
       const loadingContainer = document.querySelector('.loading-container');
+      document.body.style.cursor = "default";
       loadingContainer.style.opacity = 0;
       loadingContainer.style.transition = 'opacity 0.5s ease-in-out';
 
