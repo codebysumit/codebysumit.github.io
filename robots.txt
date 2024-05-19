@@ -6,6 +6,7 @@ Disallow: /404.html
 Disallow: /404.md
 Disallow: /README.md
 Disallow: /googlec3dbe5a7ce5e88f6.html
+Disallow: /yandex_fba88f6afc7ae874.html
 Disallow: /manifest.json
 Disallow: /serviceWorker.js
 Allow: /assets/img/portfolio/
