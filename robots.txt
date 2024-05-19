@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /plugin/
+Disallow: /src/
+Disallow: /404.html
+Disallow: /404.md
+Disallow: /README.md
+Disallow: /googlec3dbe5a7ce5e88f6.html
+Disallow: /manifest.json
+Disallow: /serviceWorker.js
+Allow: /assets/img/portfolio/
+Allow: /assets/img/profile.webp
+Allow: /assets/img/profile-pic.webp
+
+Sitemap: https://codebysumit.github.io/sitemap.xml
