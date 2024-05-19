@@ -23,20 +23,25 @@ self.addEventListener("activate", activateEvent => {
 
 self.addEventListener("fetch", fetchEvent => {
     console.log("Service Worker: Fetching");
-    fetchEvent.respondWith(
-        fetch(fetchEvent.request)
-            .then(res => {
-                // Make copy/clone of respones
-                const resClone = res.clone();
-                // Open cache
-                caches
-                    .open(cacheName)
-                    .then(cache => {
-                        // Add respones to cashe
-                        cache.put(fetchEvent.request, resClone);
-                    });
-                return res;
-            })
-            .catch (err => caches.match(fetchEvent.request).then(res => res))
-    );
+    if (fetchEvent.request.method === "POST") {
+        // Network-only strategy for POST requests (always fetch from network)
+        fetchEvent.respondWith(fetch(fetchEvent.request));
+      } else {
+        fetchEvent.respondWith(
+            fetch(fetchEvent.request)
+                .then(res => {
+                    // Make copy/clone of respones
+                    const resClone = res.clone();
+                    // Open cache
+                    caches
+                        .open(cacheName)
+                        .then(cache => {
+                            // Add respones to cashe
+                            cache.put(fetchEvent.request, resClone);
+                        });
+                    return res;
+                })
+                .catch (err => caches.match(fetchEvent.request).then(res => res))
+        );
+    }
 });
